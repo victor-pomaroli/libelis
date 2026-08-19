@@ -406,15 +406,17 @@ function InvestigateSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
           {conditions.map((c) => (
             <div
               key={c.title}
-              className="bg-white p-4 sm:p-5 shadow-sm hover:shadow-md transition-shadow border border-sand"
+              className="min-w-0 bg-white p-4 sm:p-5 shadow-sm hover:shadow-md transition-shadow border border-sand"
               style={{ borderRadius: "1rem" }}
             >
               <span className="text-3xl mb-3 block">{c.icon}</span>
-              <h3 className="font-semibold text-titulo text-sm sm:text-base mb-1">{c.title}</h3>
+              <h3 className="font-semibold text-titulo text-sm sm:text-base mb-1 break-words">
+                {c.title}
+              </h3>
               <p className="text-sm text-texto-light leading-relaxed">{c.desc}</p>
             </div>
           ))}
