@@ -95,18 +95,20 @@ function HeroSection() {
           </div>
 
           <h1 className="font-display text-4xl sm:text-5xl lg:text-7xl text-titulo leading-[1.05] mb-5 lg:mb-6">
-            Entender a sua <br />
+            Clareza para compreender <br />
+            dificuldades, potencialidades{" "}
+            <br className="hidden lg:block" />e{" "}
             <em className="not-italic" style={{ fontStyle: "italic", fontWeight: 300 }}>
-              mente
-            </em>{" "}
-            é o <br />
-            primeiro passo
+              próximos passos
+            </em>
           </h1>
 
           <p className="text-texto text-base sm:text-lg lg:text-xl leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
-            A avaliação neuropsicológica oferece respostas claras sobre como
-            você pensa, aprende e sente — para que você possa viver com mais
-            leveza e intencionalidade.
+            A avaliação neuropsicológica investiga habilidades como atenção,
+            memória, aprendizagem, linguagem e funções executivas,
+            contribuindo para a compreensão do funcionamento cognitivo e para
+            a tomada de decisões mais assertivas sobre diagnóstico e
+            tratamento.
           </p>
 
           <WhatsAppButton
@@ -123,8 +125,8 @@ function HeroSection() {
             style={{ borderRadius: "2rem" }}
           >
             <Image
-              src="/adult.jpg"
-              alt="Ambiente de consulta neuropsicológica acolhedor"
+              src="/teen.jpg"
+              alt="Adolescente em contexto de aprendizagem e reflexão"
               fill
               className="object-cover"
               priority
@@ -188,8 +190,8 @@ function AboutSection() {
               style={{ borderRadius: "2rem" }}
             >
               <Image
-                src="/adult.jpg"
-                alt="Neuropsicóloga NeuroEssência"
+                src="/quebra-cabeca.jpeg"
+                alt="Ambiente de avaliação neuropsicológica"
                 fill
                 className="object-cover"
               />
@@ -205,21 +207,27 @@ function AboutSection() {
 
           <div className="flex-1 text-center lg:text-left mt-4 lg:mt-0">
             <span className="text-xs sm:text-sm font-semibold text-botao uppercase tracking-widest mb-3 block">
-              Sobre a profissional
+              Nossa abordagem
             </span>
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl text-titulo mb-5 leading-tight">
-              Uma avaliação feita com ciência{" "}
-              <em style={{ fontWeight: 300 }}>e cuidado</em>
+              Rigor científico{" "}
+              <em style={{ fontWeight: 300 }}>e olhar individualizado</em>
             </h2>
             <p className="text-texto text-base sm:text-lg leading-relaxed mb-5">
-              Sou neuropsicóloga especializada em avaliação do funcionamento
-              cognitivo, emocional e comportamental. Acredito que cada mente é
-              única — e que uma avaliação bem feita é o primeiro passo para o
-              tratamento certo, a escola certa, o suporte certo.
+              Na Libelis, acreditamos que cada pessoa possui uma forma
+              única de processar informações, aprender, se relacionar e
+              enfrentar desafios.
+            </p>
+            <p className="text-texto text-base sm:text-lg leading-relaxed mb-5">
+              Por isso, conduzimos avaliações neuropsicológicas com rigor
+              científico, olhar individualizado e comunicação clara,
+              contribuindo para a compreensão de dificuldades, potencialidades
+              e necessidades de intervenção.
             </p>
             <p className="text-texto text-base sm:text-lg leading-relaxed mb-8">
-              Trabalho com método científico validado e linguagem acessível, para
-              que você saia da consulta com clareza — não com mais dúvidas.
+              Nosso compromisso é oferecer informações confiáveis que
+              auxiliem pacientes, familiares e profissionais na tomada de
+              decisões mais seguras e assertivas.
             </p>
             <div className="flex flex-wrap gap-2 sm:gap-3 justify-center lg:justify-start">
               {[
@@ -249,28 +257,28 @@ function IndicationsSection() {
     {
       title: "Crianças",
       description:
-        "Quando há dificuldades escolares, problemas de atenção, atraso no desenvolvimento da fala ou comportamentos desafiadores que preocupam os pais.",
+        "Quando surgem dificuldades de aprendizagem, problemas de atenção, atrasos no desenvolvimento, suspeita de TDAH, TEA ou outras questões que impactam o desenvolvimento infantil.",
       image: "/lapis.jpeg",
       emoji: "🧒",
     },
     {
       title: "Adolescentes",
       description:
-        "Quando o desempenho escolar cai, a motivação some, surgem mudanças de comportamento ou suspeita de transtornos como TDAH e dislexia.",
+        "Quando há dificuldades de concentração, queda no rendimento escolar, desafios na organização dos estudos, alterações comportamentais ou suspeita de TDAH, TEA e transtornos de aprendizagem.",
       image: "/teen.jpg",
       emoji: "🧑",
     },
     {
       title: "Adultos",
       description:
-        "Quando você sente que sua memória ou concentração não estão como antes, enfrenta ansiedade intensa, ou quer se conhecer melhor para tomar decisões mais conscientes.",
+        "Quando dificuldades de atenção, organização, memória ou planejamento começam a impactar o desempenho acadêmico, profissional, nos relacionamentos ou nas atividades do dia a dia.",
       image: "/adult.jpg",
       emoji: "🧑‍💼",
     },
     {
       title: "Idosos",
       description:
-        "Quando surgem esquecimentos frequentes, mudanças de personalidade ou há suspeita de Alzheimer e outras demências — o diagnóstico precoce faz toda a diferença.",
+        "Quando surgem esquecimentos frequentes, dificuldades cognitivas ou mudanças comportamentais que levantam dúvidas sobre o envelhecimento cognitivo ou possíveis quadros demenciais.",
       image: "/senior.jpg",
       emoji: "👴",
     },
@@ -288,8 +296,9 @@ function IndicationsSection() {
             <em style={{ fontWeight: 300 }}>com alguma situação?</em>
           </h2>
           <p className="text-texto text-base sm:text-lg mt-4 max-w-2xl mx-auto">
-            A avaliação neuropsicológica pode ser o passo que estava faltando
-            para entender o que está acontecendo e encontrar o caminho certo.
+            Quando surgem dúvidas sobre aprendizagem, atenção, memória ou
+            comportamento, uma avaliação especializada pode oferecer
+            respostas mais claras e direcionamentos mais assertivos.
           </p>
         </div>
 
@@ -329,11 +338,7 @@ function IndicationsSection() {
         </div>
 
         <div className="mt-12 text-center">
-          <WhatsAppButton
-            href={WA_URL}
-            text="Tire suas dúvidas pelo WhatsApp"
-            microcopy="É gratuito e sem compromisso"
-          />
+          <WhatsAppButton href={WA_URL} text="Tire suas dúvidas pelo WhatsApp" />
         </div>
       </div>
     </section>
@@ -343,40 +348,44 @@ function IndicationsSection() {
 function InvestigateSection() {
   const conditions = [
     {
-      icon: "🧠",
+      icon: "🎯",
       title: "TDAH",
-      desc: "Transtorno do Déficit de Atenção com Hiperatividade",
+      desc: "Investigação de dificuldades relacionadas à atenção, impulsividade e funções executivas.",
     },
-    { icon: "🌈", title: "TEA", desc: "Transtorno do Espectro Autista" },
+    {
+      icon: "♾️",
+      title: "TEA",
+      desc: "Avaliação de características relacionadas à comunicação social, comportamento e neurodesenvolvimento.",
+    },
     {
       icon: "📚",
-      title: "Dislexia e Disgrafia",
-      desc: "Transtornos específicos de aprendizagem",
+      title: "Transtornos de Aprendizagem",
+      desc: "Investigação de dificuldades específicas relacionadas à leitura, escrita e matemática.",
     },
     {
-      icon: "⚡",
-      title: "Altas Habilidades",
-      desc: "Superdotação e perfis de gênio",
+      icon: "⭐",
+      title: "Altas Habilidades/Superdotação",
+      desc: "Identificação de potencial intelectual e habilidades cognitivas acima da média.",
     },
     {
-      icon: "🌿",
-      title: "Ansiedade e Depressão",
-      desc: "Avaliação do perfil emocional e cognitivo",
+      icon: "🔀",
+      title: "Atenção e Funções Executivas",
+      desc: "Avaliação de planejamento, organização, flexibilidade cognitiva e controle inibitório.",
     },
     {
-      icon: "🧩",
+      icon: "🌱",
       title: "Deficiência Intelectual",
-      desc: "Atraso global do desenvolvimento",
+      desc: "Avaliação do funcionamento intelectual e adaptativo.",
     },
     {
       icon: "🔍",
-      title: "Alzheimer e Demências",
-      desc: "Diagnóstico precoce e monitoramento cognitivo",
+      title: "Avaliação Cognitiva e Comportamental",
+      desc: "Investigação integrada do funcionamento cognitivo e comportamental.",
     },
     {
-      icon: "📊",
-      title: "Declínio Cognitivo",
-      desc: "Memória, atenção, funções executivas",
+      icon: "🧠",
+      title: "Memória e Envelhecimento Cognitivo",
+      desc: "Investigação de alterações cognitivas relacionadas ao envelhecimento e possíveis quadros neurodegenerativos.",
     },
   ];
 
@@ -410,6 +419,16 @@ function InvestigateSection() {
             </div>
           ))}
         </div>
+
+        <div className="mt-10 lg:mt-14 text-center">
+          <p className="font-semibold text-titulo text-base sm:text-lg">
+            Não encontrou sua dúvida?
+          </p>
+          <p className="text-texto-light text-sm sm:text-base mt-1 max-w-xl mx-auto">
+            Cada avaliação é individualizada e pode investigar diferentes
+            aspectos do funcionamento cognitivo e comportamental.
+          </p>
+        </div>
       </div>
     </section>
   );
@@ -421,26 +440,33 @@ function HowItWorksSection() {
       number: "01",
       bgClass: "bg-destaque",
       title: "Primeiro contato",
-      desc: "Você entra em contato pelo WhatsApp. Nossa equipe responde com acolhimento, esclarece dúvidas e apresenta todas as informações sobre valores e prazos — sem pressão.",
+      desc: "Você entra em contato para esclarecer dúvidas, conhecer o processo de avaliação e receber informações sobre etapas, valores e prazos.",
     },
     {
       number: "02",
       bgClass: "bg-blue-100",
       title: "Entrevista inicial",
-      desc: "A avaliação começa com uma conversa detalhada com a neuropsicóloga: suas principais queixas, história clínica e o que você espera da avaliação.",
+      desc: "O processo começa com uma entrevista clínica detalhada, na qual são exploradas as principais queixas, histórico de desenvolvimento, aspectos acadêmicos, profissionais, emocionais e objetivos da avaliação.",
     },
     {
       number: "03",
       bgClass: "bg-green-100",
-      title: "Sessões de testagem",
-      desc: "As sessões são presenciais e agendadas com antecedência. Usamos instrumentos científicos adaptados à faixa etária e demanda específica de cada pessoa.",
+      title: "Sessões de avaliação",
+      desc: "São realizadas sessões de testagem utilizando instrumentos psicológicos e neuropsicológicos validados cientificamente, selecionados de acordo com a faixa etária, a demanda apresentada e os objetivos da avaliação.",
     },
     {
       number: "04",
       bgClass: "bg-amber-100",
-      title: "Devolutiva e orientações",
-      desc: "Você recebe um laudo completo e uma conversa explicando os resultados com clareza. Saímos com orientações práticas e personalizadas para os próximos passos.",
+      title: "Devolutiva e laudo",
+      desc: "Os resultados são apresentados em uma entrevista devolutiva, acompanhada de laudo técnico e orientações personalizadas que auxiliam pacientes, familiares e profissionais na tomada de decisões e no planejamento das intervenções necessárias.",
     },
+  ];
+
+  const deliverables = [
+    "Entrevista devolutiva",
+    "Laudo técnico detalhado",
+    "Integração dos resultados e compreensão do perfil cognitivo avaliado",
+    "Orientações para os próximos passos",
   ];
 
   return (
@@ -489,9 +515,36 @@ function HowItWorksSection() {
           ))}
         </div>
 
+        <div
+          className="mt-6 sm:mt-8 p-6 lg:p-8 border"
+          style={{
+            background: "rgba(255,255,255,0.1)",
+            borderColor: "rgba(255,255,255,0.2)",
+            borderRadius: "1.5rem",
+          }}
+        >
+          <h3 className="text-white font-semibold text-lg sm:text-xl mb-4 text-center">
+            O que você recebe ao final da avaliação?
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 max-w-2xl mx-auto">
+            {deliverables.map((item) => (
+              <div key={item} className="flex items-start gap-2.5">
+                <span className="text-botao font-bold flex-shrink-0" style={{ color: "#4faf9e" }}>
+                  ✓
+                </span>
+                <p className="text-sm sm:text-base" style={{ color: "rgba(255,255,255,0.85)" }}>
+                  {item}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
         <div className="mt-12 text-center">
           <p className="text-sm mb-6" style={{ color: "rgba(255,255,255,0.55)" }}>
-            Formato: presencial (Contagem — MG) ou online
+            Atendimentos presenciais em Contagem/MG. A possibilidade de
+            realização de etapas online será definida conforme a demanda
+            apresentada e os critérios técnicos da avaliação.
           </p>
           <WhatsAppButton
             href={WA_URL_SCHEDULE}
@@ -509,24 +562,24 @@ function HowItWorksSection() {
 function BenefitsSection() {
   const benefits = [
     {
-      icon: "🎯",
-      title: "Clareza sobre o que está acontecendo",
-      desc: "Chega de achismos. Você terá respostas concretas, baseadas em ciência, sobre o funcionamento da sua mente.",
+      icon: "🔍",
+      title: "Clareza sobre o funcionamento cognitivo",
+      desc: "Compreender como atenção, memória, aprendizagem, linguagem e funções executivas estão funcionando permite enxergar dificuldades e potencialidades com mais objetividade.",
     },
     {
-      icon: "🛤️",
-      title: "Direção para os próximos passos",
-      desc: "Com o laudo em mãos, você e os profissionais que te acompanham saberão exatamente como agir de forma eficaz.",
+      icon: "🧭",
+      title: "Direcionamento para os próximos passos",
+      desc: "Os resultados da avaliação auxiliam no planejamento de intervenções, acompanhamentos e estratégias mais adequadas às necessidades identificadas.",
     },
     {
-      icon: "🤝",
-      title: "Suporte na escola, família e trabalho",
-      desc: "As orientações do laudo facilitam conversas com professores, gestores, médicos e familiares — garantindo o suporte certo em cada ambiente.",
+      icon: "👥",
+      title: "Suporte para escola, família e profissionais",
+      desc: "As informações obtidas podem auxiliar familiares, educadores e profissionais da saúde na construção de estratégias mais alinhadas às necessidades de cada pessoa.",
     },
     {
-      icon: "💡",
-      title: "Autoconhecimento que transforma",
-      desc: "Entender como sua mente funciona é libertador. Muitos relatam que a avaliação foi um ponto de virada em suas vidas.",
+      icon: "⭐",
+      title: "Compreensão das potencialidades e desafios",
+      desc: "Além de identificar dificuldades, a avaliação também contribui para reconhecer recursos, habilidades e pontos fortes que podem ser desenvolvidos e utilizados no dia a dia.",
     },
   ];
 
@@ -538,8 +591,10 @@ function BenefitsSection() {
             O que você leva
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl text-titulo leading-tight">
-            Mais do que um laudo —{" "}
-            <em style={{ fontWeight: 300 }}>uma nova perspectiva</em>
+            Mais do que um laudo:{" "}
+            <em style={{ fontWeight: 300 }}>
+              compreensão, direcionamento e possibilidades de ação
+            </em>
           </h2>
         </div>
 
@@ -681,28 +736,40 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
 function FAQSection() {
   const faqs = [
     {
-      q: "Quanto tempo dura a avaliação neuropsicológica?",
-      a: "O processo costuma durar entre 6 e 10 sessões, dependendo da faixa etária e da demanda. Cada sessão tem duração de 50 a 90 minutos. Após as sessões, realizamos a análise e elaboração do laudo.",
+      q: "Como saber se uma avaliação neuropsicológica é indicada?",
+      a: "Se você percebe dificuldades persistentes de atenção, memória, aprendizagem ou comportamento — em qualquer idade — ou tem dúvidas sobre o funcionamento cognitivo de alguém, uma conversa inicial pode esclarecer se a avaliação é indicada para o seu caso.",
     },
     {
-      q: "A avaliação é feita em uma só consulta?",
-      a: "Não. A avaliação neuropsicológica é um processo estruturado em etapas: entrevista inicial, sessões de testagem e devolutiva. Esse processo garante qualidade e confiabilidade dos resultados.",
+      q: "Quanto tempo dura o processo de avaliação?",
+      a: "O processo é estruturado em etapas — entrevista inicial, sessões de avaliação e devolutiva — e a duração varia conforme a faixa etária e a demanda apresentada. No primeiro contato você recebe informações sobre prazos.",
     },
     {
-      q: "O laudo tem validade? Precisa ser renovado?",
-      a: "Sim, laudos têm validade, especialmente para fins escolares e de saúde. Em geral, recomenda-se reavaliação após alguns anos ou quando há mudanças significativas na situação clínica.",
+      q: "A avaliação é realizada em uma única sessão?",
+      a: "Não. A avaliação neuropsicológica é um processo estruturado em etapas: entrevista inicial, sessões de testagem com instrumentos científicos validados e, por fim, a devolutiva com o laudo técnico.",
     },
     {
-      q: "A avaliação pode ser feita de forma online?",
-      a: "Parte das etapas pode ser realizada online. A entrevista inicial e a devolutiva são compatíveis com o formato remoto. As sessões de testagem podem exigir presença em Contagem — MG, dependendo dos instrumentos.",
+      q: "A avaliação pode ser realizada online?",
+      a: "Os atendimentos presenciais acontecem em Contagem/MG. A possibilidade de realização de etapas online é definida conforme a demanda apresentada e os critérios técnicos da avaliação.",
+    },
+    {
+      q: "O que está incluído na avaliação?",
+      a: "Você recebe entrevista inicial, sessões de testagem, entrevista devolutiva, laudo técnico detalhado com integração dos resultados e orientações para os próximos passos.",
+    },
+    {
+      q: "O laudo tem validade?",
+      a: "Sim. Assim como outros documentos técnicos em saúde, o laudo reflete o momento avaliado, e uma reavaliação pode ser recomendada após alguns anos ou diante de mudanças clínicas significativas.",
+    },
+    {
+      q: "A avaliação é aceita por médicos e escolas?",
+      a: "Sim. O laudo técnico segue os critérios da neuropsicologia e pode ser utilizado por médicos, escolas e demais profissionais envolvidos no cuidado, servindo de base para decisões diagnósticas e de intervenção.",
     },
     {
       q: "O plano de saúde cobre a avaliação?",
-      a: "A maioria dos planos de saúde não cobre avaliações neuropsicológicas privadas. Recomendamos verificar diretamente com seu plano. Oferecemos facilidades de pagamento — entre em contato para mais detalhes.",
+      a: "A cobertura varia conforme o plano de saúde. Recomendamos verificar diretamente com sua operadora; para informações sobre valores e formas de pagamento, entre em contato pelo WhatsApp.",
     },
     {
-      q: "Como saber se meu filho precisa de uma avaliação?",
-      a: "Se você percebe dificuldades persistentes na escola, comportamentos que preocupam, atrasos no desenvolvimento ou simplesmente quer entender melhor o perfil do seu filho, uma conversa inicial sem compromisso pode esclarecer suas dúvidas.",
+      q: "Para quais idades a avaliação neuropsicológica é indicada?",
+      a: "A avaliação neuropsicológica é indicada para crianças, adolescentes, adultos e idosos, sempre com instrumentos selecionados de acordo com a faixa etária e os objetivos da avaliação.",
     },
   ];
 
@@ -729,8 +796,12 @@ function FAQSection() {
         </div>
 
         <div className="mt-12 text-center">
+          <p className="font-medium mb-1" style={{ color: "rgba(255,255,255,0.9)" }}>
+            Ainda tem dúvidas?
+          </p>
           <p className="mb-6" style={{ color: "rgba(255,255,255,0.65)" }}>
-            Não encontrou sua resposta? Fale diretamente comigo.
+            Estamos disponíveis para esclarecer informações sobre o processo
+            de avaliação, prazos e formas de atendimento.
           </p>
           <WhatsAppButton
             href={WA_URL}
@@ -759,19 +830,18 @@ function FinalCTASection() {
           Pronto para começar?
         </span>
         <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-titulo leading-[1.1] mb-6">
-          O próximo passo <br />
-          <em style={{ fontWeight: 300 }}>começa com uma conversa</em>
+          O próximo passo é <br />
+          <em style={{ fontWeight: 300 }}>compreender com mais clareza</em>
         </h2>
         <p className="text-texto text-base sm:text-lg leading-relaxed mb-8 max-w-xl mx-auto">
-          Entre em contato pelo WhatsApp, sem compromisso. Tire suas dúvidas,
-          saiba mais sobre o processo e descubra como a avaliação
-          neuropsicológica pode fazer a diferença na sua vida ou na vida de
-          alguém que você ama.
+          Entre em contato para conhecer o processo de avaliação
+          neuropsicológica, esclarecer dúvidas e receber orientações sobre a
+          melhor forma de iniciar sua avaliação.
         </p>
         <WhatsAppButton
           href={WA_URL_SCHEDULE}
           text="Iniciar conversa pelo WhatsApp"
-          microcopy="Atendimento humanizado · Resposta em até 24 horas"
+          microcopy="Atendimento personalizado · Resposta em até 24 horas"
           large
         />
         <p className="mt-6 text-sm text-texto-light">

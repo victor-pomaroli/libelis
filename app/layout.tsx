@@ -20,7 +20,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "NeuroEssência | Avaliação Neuropsicológica — Contagem, MG",
+  title: "Libelis | Centro de Neurodesenvolvimento — Avaliação Neuropsicológica em Contagem, MG",
   description:
     "Avaliação neuropsicológica especializada para crianças, adolescentes, adultos e idosos. Atendimento presencial em Contagem-MG e online. Laudo completo com orientações personalizadas.",
 };
